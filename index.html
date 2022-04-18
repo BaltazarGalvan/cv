@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- aqui se indica la versión con la que el browser va a hacer el render del código
+en este caso será HTML 5-->
+
+<html lang="en" dir="ltr">
+
+<!-- la seccion de head es para colocar la informacion del webpage, su metadata y caracteristicas especiales del mismo,... como debe ser decodificado por el browser -->
+
+<head>
+  <!-- siempre utilizar charset= "utf-8" ya que es el método de codificación mas completo que existe, conteniendo caso todos los simbolos de los diferentes lenguajes (emoji)-->
+  <meta charset="utf-8">
+  <!-- <title>se refiere a la informacion que aparecerá como titulo de nuestra pagina</title> -->
+  <title>Sitio WEB personal de Baltazar</title>
+</head>
+
+<!-- <body> constituye todo el cuerpo de nuestra pagina web </body> -->
+
+<body>
+  <!-- <table></table> crea una tabla -->
+  <table>
+    <!-- <tr> </tr> crea un renglon-->
+    <tr>
+      <!-- <td></td> un dato dentro del renglon, puede contener tantos datos como sea necesario y esto simula las columnas-->
+      <td>
+        <!-- <img src="" alt="">  indica que va a colocar un elemento imagen, el source puede ser una liga a otro servidor o una referencia dentro de nuastro sitio web-->
+        <!-- podemos obtener las imagenes si damos boton derecho y copy image address -->
+        <!--  alt se refiere al texto alternativo que pondra el browser en caso de que la imagen no este disponible o no pueda ser descargada para mostrarse-->
+        <!-- también funcion para que los buscadores como google tengan un indice del contenido de la imagen y pueda ser considerada en sus busquedas, así que es importante colocar el alt -->
+        <!-- para que aparesca dentro de las busquedas -->
+        <img src="images/BGV.png" width="150" alt="Baltazar Profile picture">
+        <!-- <img src="https://media-exp1.licdn.com/dms/image/C4D03AQG_CASwIicVAg/profile-displayphoto-shrink_100_100/0/1516930491818?e=1654732800&v=beta&t=FmGEB-R0zSSg62WNqPT0fS26ZGITt2lOp8hldmGesAA" alt="Baltazar Profile picture"> -->
+      </td>
+      <td>
+        <!-- <h1>es el primer tamaño de encabezado</h1> -->
+        <h1>Baltazar Galvan</h1>
+        <!-- <p>crea un parafo despues de hacer un salto de linea</p> -->
+        <!-- <em>hace enfasis del contenido poniendolo en italica </em> -->
+        <!-- <strong>hace negritas el contenido</strong> -->
+        <!--  en este caso Computación es italica y negritas ya que esta dentro de em y strong  -->
+        <p> <em><strong>Computer & BroadCast Engineer</strong></em> </p>
+        <p>I am a very creative person, who likes to learn a lot, and by now I am studing JavaScript & HTML on Udemy with Angela Yu and Jonas Schmedtmann</p>
+
+      </td>
+    </tr>
+  </table>
+  <!-- <hr> crea una linea o regla horizontal de ahí hr (horizontal rule) -->
+  <!-- size se refiere al ancho en pixeles y color al color del relleno-->
+  <hr size='1' color='black'>
+  <!-- <h3>tercer tamaño de encabezado</h3> -->
+  <h3>Books</h3>
+  <!-- <ul> crea una lista sin orden, como bullets y utiliza <li>para cada elemento de la lista</li> </ul> -->
+  <ul>
+    <!-- en este elemento de la lista se agrega un anchor con un hipervinculo a pagina externa usando href  referenciado a la etiqueta ZABS la cual esta enfatizado y en negritas <a href="#"></a> -->
+    <li>The lord of the Rings</li>
+    <!-- <li>Song of Ice and Fire  <a href="https://repositorio.unam.mx/contenidos?c=YYjl61&i=3&d=false&t=search_1&v=1&as=0&q=*:*"> <em><strong>"SABZ"</strong></em></a> </li> -->
+    <li>Song of Ice and Fire </li>
+    <li>Harry Potter</li>
+    <!-- esta nueva lista, hace un identado dentro de este elemento de la lista -->
+    <li>Peanuts</li>
+  </ul>
+  <hr>
+  <h3>Skills</h3>
+  <table cellspacing = "5">
+    <tr>
+      <td>Analitical & Abstract thinking</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>Passionate</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>Problem solver</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>User Oriented</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>Handy</td>
+      <td>✅</td>
+    </tr>
+  </table>
+  <hr>
+  <!-- nested tables -->
+  <!-- <table>
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>h</td>
+            <td>hh</td>
+          </tr>
+          <tr>
+            <td>xx</td>
+            <td>x</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>xx</td>
+            <td>x</td>
+          </tr>
+          <tr>
+            <td>h</td>
+            <td>hh</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table> -->
+  <!-- <hr> -->
+  <h3>My Hobbies</h3>
+  <!-- <ol> crea una lista ordenada, por default es con numeros y al igual que <ul></ul> utiliza <li></li> para agregar los elementos </ol> -->
+  <ol>
+    <li>Learn</li>
+    <li>Music</li>
+    <!-- este elemento genera una listas ordenada identada pero de tipo "i" que se refire a numeros romanos-->
+    <ol type="I">
+      <li>Rock</li>
+      <li>Folk</li>
+      <li>Classic</li>
+      <li>Trova</li>
+    </ol>
+    <li>Build stuff</li>
+    <li>Movies</li>
+  </ol>
+  <hr>
+  <h3> <a href="Contact me.html">Contact me</a> </h3>
+</body>
+
+</html>
